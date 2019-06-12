@@ -71,6 +71,7 @@ p {
   -ms-border-radius: 0.4rem;
   -o-border-radius: 0.4rem;
   padding: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .next-node-button {
