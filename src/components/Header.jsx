@@ -1,7 +1,7 @@
 import React from 'react';
 const Sidebar = ({ current, setCurrent, insert, data }) => {
   return (
-    <nav className="sidebar-wrapper fullwidth">
+    <header className="sidebar-wrapper fullwidth">
       <input
         className="next-node-input fullwidth"
         type="number"
@@ -23,7 +23,7 @@ const Sidebar = ({ current, setCurrent, insert, data }) => {
       </button>
       <p>Data</p>
       <p>{JSON.stringify(data)}</p>
-    </nav>
+    </header>
   );
 };
 

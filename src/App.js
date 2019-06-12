@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 
 import Graph from './components/Graph';
-import Sidebar from './components/Sidebar';
+import Header from './components/Header';
 
 function Node(value) {
   this.value = value;
@@ -89,7 +89,7 @@ function App() {
 
   return (
     <main className="App">
-      <Sidebar
+      <Header
         current={current}
         setCurrent={setCurrent}
         insert={insert}
