@@ -21,8 +21,6 @@ const Sidebar = ({ current, setCurrent, insert, data }) => {
       >
         Add node
       </button>
-      <p>Data</p>
-      <p>{JSON.stringify(data)}</p>
     </header>
   );
 };

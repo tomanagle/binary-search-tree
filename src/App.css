@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap");
 html {
   font-size: 10px;
 }
@@ -23,7 +23,7 @@ p {
 }
 .App {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .tree-container {
@@ -90,7 +90,7 @@ p {
 
 .nodeNameBase {
   font-size: 1.6rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   background-color: #ccc;
 }
